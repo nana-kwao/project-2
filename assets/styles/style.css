@@ -23,6 +23,9 @@
   *{
     color: black;
   }
+  body{
+    background-color: white;
+  }
   
   @media (min-width: 576px){
     
@@ -45,7 +48,9 @@
   *{
     color: white;
   }
-  
+  body{
+    background-color: black;
+  }
   @media (min-width: 576px){
     
   }
