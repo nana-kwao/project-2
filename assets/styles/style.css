@@ -18,6 +18,9 @@
   text-decoration: none;
   box-sizing: border-box;
 }
+html{
+  touch-action: manipulation;
+}
 
 body{
   width: 100vw;
