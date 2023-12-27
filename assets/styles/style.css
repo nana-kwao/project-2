@@ -18,54 +18,47 @@
   text-decoration: none;
   box-sizing: border-box;
 }
-body{
-  position: relative;
-  display: block;
-  width: 100%;
-  height: auto;
+
+@media (prefers-color-scheme:light){
+  *{
+    color: black;
+  }
+  
+  @media (min-width: 576px){
+    
+  }
+
+  @media (min-width: 768px) {
+    
+  }
+
+  @media (min-width: 992px) {
+    
+  }
+
+  @media (min-width: 1200px) {
+    
+  }
 }
-header{
-  width: inherit;
-  height: auto;
-  background-image: url("../images/lady-reading.jpg");
-  background-repeat: no-repeat;
-  background-size: 100%;
-}
-.headings{
-  width: 100%;
-  height: 280px;
-  display: grid;
-  place-content: center;
-}
-.heading{
-  color: white;
-  font-family: "Poppins ExtraBold";
-  font-size:3.5rem;
-}
-.sub-heading{
-  color: white;
-  opacity: 0.8;
-  font-family: "Poppins Bold";
-  font-size: 2.5rem;
-}
-nav{
-  width: 100%;
-  height: auto;
-  display: grid;
-  place-content: center;
-}
-.menu-items{
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  height: 150px;
-}
-.menu-items-list{
-  height: inherit;
-  padding: 10px;
-}
-.menu-items-list img{
-  width: 200px;
-  height: 200px;
-  border-radius: 5px;
-  box-shadow: 5px 5px 5px gray;
+
+@media (prefers-color-scheme:dark){
+  *{
+    color: white;
+  }
+  
+  @media (min-width: 576px){
+    
+  }
+
+  @media (min-width: 768px) {
+    
+  }
+
+  @media (min-width: 992px) {
+    
+  }
+
+  @media (min-width: 1200px) {
+    
+  }
 }
