@@ -56,6 +56,10 @@ body{
       display: block;
 
     }
+    .heading{
+      position: absoluet;
+      z-index: 1;
+      top: 50px;
   }
 
   @media (min-width: 768px) {
